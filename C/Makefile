@@ -1,5 +1,5 @@
 libai: libai.c libai.h
-	gcc libai.c -o libai -lm -Wall
+	clang libai.c -o libai -lm -Wall
 
 run:
 	./libai
